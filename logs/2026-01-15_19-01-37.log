@@ -1,0 +1,3 @@
+[2026-01-15 19:01:38,605] INFO - Read dataset as dataframe. Shape: (17880, 18)
+[2026-01-15 19:01:42,015] INFO - splitting data into train and test
+[2026-01-15 19:01:43,798] INFO - Data Ingestion COmpleted.
