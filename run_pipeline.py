@@ -1,5 +1,6 @@
 from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
 
 if __name__ == "__main__":
     obj = DataIngestion()
@@ -10,3 +11,7 @@ if __name__ == "__main__":
     
     print("Transformation Complete.")
     print(f"Train Array Shape: {train_arr.shape}")
+
+    model_trainer = ModelTrainer()
+    model_trainer.initiate_model_trainer(train_arr, test_arr)
+    print("Model Training Completed")
